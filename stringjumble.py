@@ -45,4 +45,5 @@ print(' '.join(reverse_words))
 # Reverse order of letters within words, but leave words in order
 reverse_words_letters = [len(words_list)]
 for i in range(0,len(words_list)):
-    reverse_words_letters[i] = words_list[i][::-1]
+    words_letters_list[i] = list(words_list[i])
+    reverse_words_letters_list[i] = words_letters_list[i][::-1]
