@@ -46,4 +46,4 @@ print(' '.join(reverse_words))
 reverse_words_letters = [len(words_list)]
 for i in range(0,len(words_list)):
     reverse_words_letters[i] = words_list[i][::-1]
-print(' '.join(reverse_words_letters))
+#print(' '.join(reverse_words_letters))
