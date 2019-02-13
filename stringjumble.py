@@ -44,4 +44,4 @@ print(' '.join(reverse_words))
 
 # Reverse order of letters within words, but leave words in order
 reverse_words_letters = [x[::-1] for x in words_list]
-print(' '.join(reverse_words_letters)
+print(' '.join(reverse_words_letters))
